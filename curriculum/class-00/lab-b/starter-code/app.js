@@ -193,4 +193,4 @@ console.log(joe.scopeArrow());
 // 2. What is "this" when joe.scopeArrow() is invoked?
 //window
 // 3. Explain why "this" is different when an arrow function is used.
-//Arrow functions do not bind "this"
+//Arrow functions do not bind "this".
