@@ -1,0 +1,127 @@
+/*mobile device styles*/
+@media all and (min-width: 480px) and (max-width: 767px) {
+    #a {
+        width: 100%;
+        height: 75px;
+        background-color: red;
+    }
+
+    #b {
+        width: 100%;
+        height: 150px;
+        background-color: blue;
+    }
+
+    #c {
+        width: 100%;
+        height: 125px;
+        background-color: orange;
+    }
+
+    #d {
+        width: 100%;
+        height: 125px;
+        background-color: yellowgreen;
+    }
+
+    #e {
+        float: left;
+        width: 50%;
+        height: 250px;
+        background-color: green
+    }
+
+    #f {
+        float: right;
+        width: 50%;
+        height: 250px;
+        background-color: plum;
+    }
+
+    #g {
+        float: left;
+        width: 50%;
+        height: 250px;
+        background-color: aqua
+    }
+
+    #h {
+        float: right;
+        width: 50%;
+        height: 250px;
+        background-color: yellow;
+    }
+
+    #i {
+        clear: both;
+        width: 100%;
+        height: 80px;
+        background-color: paleturquoise;
+    }
+}
+
+/*desktop styles*/
+@media all and (min-width: 768px) and (max-width: 960px) {
+    #a {
+        width: 100%;
+        height: 100px;
+        background-color: forestgreen;
+    }
+
+    #b {
+        float: left;
+        width: 20.84%;
+        height: 600px;
+        background-color: gold;
+    }
+
+    #c {
+        float: left;
+        width: 39.58%;
+        height: 200px;
+        background-color:lightcoral;
+    }
+
+    #d {
+        float: left;
+        width: 39.58%;
+        height: 200px;
+        background-color: rosybrown;
+    }
+
+    #e {
+        float: left;
+        width: 19.79%;
+        height: 250px;
+        background-color: darkcyan;
+    }
+
+    #f {
+        float: left;
+        width: 19.79%;
+        height: 250px;
+        background-color: burlywood;
+    }
+
+    #g {
+        float: left;
+        width: 19.79%;
+        height: 250px;
+        background-color: lavender;
+    }
+
+    #h {
+        float: left;
+        width: 19.79%;
+        height: 250px;
+        background-color: palegreen;
+    }
+
+    #i {
+        float: right;
+        width: 79.16%;
+        height: 150px;
+        background-color: cornflowerblue;
+    }
+
+}
