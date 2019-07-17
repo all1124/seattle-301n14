@@ -37,8 +37,8 @@ function displayPics(){
   }
 
   console.log(rando);
-  // TODO: In a sentence or two, explain why the previous line of code threw an error when we changed the constiable declaration from `const to `const`.
-  //changing rando to var will allow for reassignment 
+  // TODO: In a sentence or two, explain why the previous line of code threw an error when we changed the constiable declaration from `var' to `let`.
+  //let and const does not have scope flexibility. after changing the variable to let,the console.log function no longer had access to the variable. changing rando to var will allow access outside the function it was declared in. 
 
   console.log(viewed);
 
